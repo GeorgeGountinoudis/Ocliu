@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-	padding: 0 50px;
+    padding: 0 50px;
 }
 
 .flex-container1{
@@ -33,12 +33,12 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-	max-width: 61%;
+    max-width: 61%;
 }
 
 #image1 img {
-	max-width: 100%;
-	max-height: 82vh;
+    max-width: 100%;
+    max-height: 82vh;
 }
 
 #image2{
@@ -50,7 +50,7 @@ body {
 
 #image2 img {
     max-width: 100%;
-	max-height: 82vh;
+    max-height: 82vh;
 }
 
 .logoandinfo-flex{
@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     height: 82vh;
     padding-left: 133px;
-	position: relative;
+    position: relative;
 }
 
 #logo{
@@ -67,7 +67,7 @@ body {
 
 .flex-container2{
     align-items: stretch;
-	padding-top: 15.5vh;
+    padding-top: 15.5vh;
     justify-content: flex-start;
     display: flex;
 }
@@ -87,7 +87,7 @@ body {
     margin: 0 0 1px 25px;
     font-family: var(--primary-font);
     font-size: 32px;
-	font-weight: 400;
+    font-weight: 400;
     letter-spacing: 0.01em;
     color: var(--primary-black);
 }
@@ -98,7 +98,7 @@ body {
     margin-bottom: 40px;
     font-family: var(--primary-font);
     font-size: 23px;
-	font-weight: 400;
+    font-weight: 400;
     letter-spacing: 0.01em;
     color: var(--primary-grey);
 }
@@ -111,23 +111,23 @@ body {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.01em;
-	line-height: 28px;
+    line-height: 28px;
     color: var(--primary-black);
 }
 
-.info-icon {
-	display: inline-block;
-	margin-right: 8px;
-	min-width: 15px;
+.info-icon{
+    display: inline-block;
+    margin-right: 8px;
+    min-width: 15px;
 }
 
-a {
-	color: var(--hover-black);
-	text-decoration: none;
+a{
+    color: var(--hover-black);
+    text-decoration: none;
 }
 
-a:hover {
-	color: var(--primary-grey);
+a:hover{
+    color: var(--primary-grey);
 }
 
 #flex-container3{
@@ -154,9 +154,9 @@ a:hover {
 #footer > p{
     font-family: var(--primary-font);
     font-size: 42px;
-	font-weight: 400;
+    font-weight: 400;
     letter-spacing: 0.01em;
-	margin: 0;
+    margin: 0;
     color: var(--primary-black);
 }
 
@@ -164,7 +164,7 @@ a:hover {
 
 @media (max-width: 1699px) and (min-width: 1200px) {
     .logoandinfo-flex {
-		padding-left: 80px;
+	padding-left: 80px;
     }
     
     #logo{
@@ -191,15 +191,15 @@ a:hover {
 
 @media (max-width: 1199px) and (min-width: 992px) {
     #image1{
-		max-width: 58%;
-	}
+	max-width: 58%;
+    s}
 	
     #image2{
         max-width: 58%;
     }
     
     .logoandinfo-flex {
-		padding-left: 0;
+	padding-left: 0;
     }
 
     #logo{
@@ -208,7 +208,7 @@ a:hover {
 
     .flex-container2{
         max-width: calc((100% - 100px) * 0.42);
-		padding-top: 5vh;
+	padding-top: 5vh;
     }
 
     #first-p{
@@ -222,7 +222,7 @@ a:hover {
         margin-bottom: 40px;
     }
 
-	.info-p{
+    .info-p{
         margin-left: 15px;
         margin-bottom: 0.1px;
         margin-top: 0.1px;
@@ -241,13 +241,13 @@ a:hover {
     
     .container {
         padding: 0 50px 80px;
-		position: relative;
+	position: relative;
     }
 
     .flex-container1{
         display: flex;
         align-items: flex-end;
-		max-width: 100%;
+	max-width: 100%;
     }
 
     #image1 {
@@ -256,15 +256,15 @@ a:hover {
 
     #image2{
         bottom: 0;
-		max-width: 71%;
-		max-height: unset;
-		top: unset;
+	max-width: 71%;
+	max-height: unset;
+	top: unset;
     }
 	
-	#image2 img {
+    #image2 img {
         max-height: unset;
-		max-width: 100%;
-	}
+	max-width: 100%;
+    }
 
     .logoandinfo-flex{
         display: flex;
@@ -273,8 +273,8 @@ a:hover {
         position: relative;
         height: auto;
         max-width: 400px;
-		margin-bottom: 60px;
-		padding-left: 0;
+	margin-bottom: 60px;
+	padding-left: 0;
         padding-top: 80px;
         z-index: 2;
     }
@@ -284,16 +284,16 @@ a:hover {
     }
 
     #logotypo img {
-		max-width: 200px;
-	}
+	max-width: 200px;
+    }
 
     .flex-container2{
         padding-top: 30px;
     }
     
     #grey-line {
-		height: unset;
-	}
+	height: unset;
+    }
 
     #first-p{
         margin-left: 15px;
@@ -303,7 +303,7 @@ a:hover {
         margin-left: 15px;
     }
 
-	.info-p{
+    .info-p{
         margin-left: 15px;
         margin-bottom: 0.1px;
         margin-top: 0.1px; 
@@ -321,8 +321,8 @@ a:hover {
         transform: rotate(90deg);
     }
 
-	#footer {
-		padding-bottom: 80px;
+    #footer {
+	padding-bottom: 80px;
     }
     
     #footer > p{
@@ -361,7 +361,7 @@ a:hover {
     
     .logoandinfo-flex{
         margin-bottom: 40px;
-		max-width: 100%;
+	max-width: 100%;
     }   
     
     #logo{
@@ -383,15 +383,16 @@ a:hover {
 
     #small-p{
         font-size: 21px;
-		margin-bottom: 30px;
+	margin-bottom: 30px;
     }
     
-	.info-p{
+    .info-p{
         margin-left: 15px;
         margin-bottom: 0.1px;
         margin-top: 0.1px;
         font-size: 17px;
     }
+	
     #down-corner{
         left: 0;
         max-width: 160px;
@@ -408,7 +409,7 @@ a:hover {
 }
  /* Made for reaching down to 360px*/
 @media (max-width: 480px) {
-	.container {
+    .container {
         padding: 0 15px 120px;
     }        
     
@@ -425,8 +426,8 @@ a:hover {
     }
     
     .flex-container2 {
-		padding-top: 0;
-	}
+	padding-top: 0;
+    }
 
     #first-p{
         font-size: 25px;
@@ -446,7 +447,7 @@ a:hover {
 
     #footer > p{
         font-size: 22px;
-		margin-left: 24px;
+	margin-left: 24px;
     }
 
 }
